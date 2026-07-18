@@ -112,8 +112,8 @@
         </p>
         <p>
           The app may show advertising, including mandatory interstitial ads after a number of completed
-          matches and optional rewarded ads chosen by the player. The app may also offer a one-time in-app
-          purchase to remove mandatory ads.
+          matches and optional rewarded ads chosen by the player. The app may also offer purchases to remove
+          mandatory ads or obtain in-game wisdom.
         </p>
       </section>
 
@@ -125,7 +125,7 @@
           <li>game progress, records, statistics and match results;</li>
           <li>coins/wisdom, achievements, daily missions and collectible cards;</li>
           <li>rewarded ad usage counters and mandatory ad counters;</li>
-          <li>purchase state needed to know whether mandatory ads should be removed.</li>
+          <li>purchase state needed to prevent duplicate delivery and restore permanent benefits.</li>
         </ul>
         <p>
           This local information is used to run the game, preserve your progress, apply rewards and remember
@@ -167,13 +167,18 @@
       <section>
         <h2>4. In-app purchases</h2>
         <p>
-          The app may offer a one-time in-app purchase to remove mandatory ads. Payment processing is handled
-          by the app store provider, such as Google Play. The app developer does not receive your full payment
-          card details.
+          The app may offer permanent purchases to remove mandatory ads, including a Founder Pack that also
+          grants an initial amount of wisdom, and consumable purchases that add wisdom to the local game
+          balance. Payment processing is handled by Google Play. The app developer does not receive your full
+          payment card details.
         </p>
         <p>
           The purchase to remove mandatory ads does not necessarily remove optional rewarded ads, because
           rewarded ads are voluntary gameplay choices used to obtain extra help or rewards.
+        </p>
+        <p>
+          Google Play purchase tokens and product identifiers may be sent to a secure verification service to
+          confirm that a purchase is valid, prevent duplicate delivery and restore permanent benefits.
         </p>
       </section>
 
@@ -209,7 +214,9 @@
         <ul>
           <li>Google AdMob and related Google advertising services;</li>
           <li>Google Play services and Google Play Billing, if purchases are available;</li>
-          <li>hosting or support services used to publish the privacy policy or receive support requests.</li>
+          <li>Supabase, used to receive optional issue reports, limited technical diagnostics and purchase
+          verification requests;</li>
+          <li>GitHub Pages, used to publish this privacy policy.</li>
         </ul>
       </section>
 
@@ -287,7 +294,7 @@
         <p>
           La app puede mostrar anuncios, incluyendo anuncios intersticiales obligatorios tras varias partidas
           completadas y anuncios recompensados opcionales elegidos por el jugador. La app también puede ofrecer
-          una compra única dentro de la app para eliminar los anuncios obligatorios.
+          compras para eliminar anuncios obligatorios u obtener sabiduría dentro del juego.
         </p>
       </section>
 
@@ -299,7 +306,7 @@
           <li>progreso, récords, estadísticas y resultados de partidas;</li>
           <li>monedas/sabiduría, logros, misiones diarias y cartas coleccionables;</li>
           <li>contadores de anuncios recompensados y anuncios obligatorios;</li>
-          <li>estado de compra necesario para saber si deben eliminarse los anuncios obligatorios.</li>
+          <li>estado de compra necesario para evitar entregas duplicadas y restaurar beneficios permanentes.</li>
         </ul>
         <p>
           Esta información local se usa para que el juego funcione, conservar el progreso, aplicar recompensas
@@ -342,13 +349,19 @@
       <section>
         <h2>4. Compras dentro de la app</h2>
         <p>
-          La app puede ofrecer una compra única para eliminar los anuncios obligatorios. El procesamiento del
-          pago lo gestiona la tienda de aplicaciones, como Google Play. El desarrollador de la app no recibe
-          los datos completos de tu tarjeta de pago.
+          La app puede ofrecer compras permanentes para eliminar los anuncios obligatorios, incluido el Pack
+          Fundador, que también concede una cantidad inicial de sabiduría, y compras consumibles que añaden
+          sabiduría al saldo local del juego. El procesamiento del pago lo gestiona Google Play. El
+          desarrollador de la app no recibe los datos completos de tu tarjeta de pago.
         </p>
         <p>
           La compra para eliminar anuncios obligatorios no elimina necesariamente los anuncios recompensados
           opcionales, porque estos son ayudas voluntarias elegidas por el jugador para obtener beneficios extra.
+        </p>
+        <p>
+          Los identificadores de producto y tokens de compra de Google Play pueden enviarse a un servicio seguro
+          de verificación para confirmar que la compra es válida, impedir entregas duplicadas y restaurar
+          beneficios permanentes.
         </p>
       </section>
 
@@ -384,7 +397,9 @@
         <ul>
           <li>Google AdMob y servicios publicitarios relacionados de Google;</li>
           <li>Google Play Services y Google Play Billing, si las compras están disponibles;</li>
-          <li>servicios de alojamiento o soporte usados para publicar la política o recibir solicitudes de soporte.</li>
+          <li>Supabase, utilizado para recibir reportes opcionales, diagnósticos técnicos limitados y solicitudes
+          de verificación de compras;</li>
+          <li>GitHub Pages, utilizado para publicar esta política de privacidad.</li>
         </ul>
       </section>
 
