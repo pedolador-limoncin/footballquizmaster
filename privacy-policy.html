@@ -93,7 +93,7 @@
   <body>
     <main>
       <h1>Privacy Policy</h1>
-      <p class="muted">Football Quiz Master · Last updated: July 18, 2026</p>
+      <p class="muted">Football Quiz Master · Last updated: July 22, 2026</p>
 
       <section class="notice">
         <h2>Important contact information</h2>
@@ -130,6 +130,11 @@
         <p>
           This local information is used to run the game, preserve your progress, apply rewards and remember
           your preferences.
+        </p>
+        <p>
+          User-created backup files contain settings, records and tutorial state only. They deliberately exclude
+          purchase entitlements, wisdom balances, achievements and collectible cards. Backup files leave the app
+          only when the user chooses to export or share them through Android.
         </p>
       </section>
 
@@ -177,8 +182,11 @@
           rewarded ads are voluntary gameplay choices used to obtain extra help or rewards.
         </p>
         <p>
-          Google Play purchase tokens and product identifiers may be sent to a secure verification service to
-          confirm that a purchase is valid, prevent duplicate delivery and restore permanent benefits.
+          Google Play purchase tokens, product identifiers, order identifiers and purchase status may be sent
+          over an encrypted connection to a Supabase-based verification service. The raw purchase token is used
+          to query Google Play and is converted into a one-way hash before it is recorded. Product, order and
+          verification timestamps may be retained to prevent duplicate delivery, detect fraud, recover interrupted
+          purchases and restore permanent benefits.
         </p>
       </section>
 
@@ -191,6 +199,11 @@
           such as your message, error description, app screen, game mode, language, device details or contact
           information. This information is used to understand and fix problems, respond to requests and improve
           the app.
+        </p>
+        <p>
+          Diagnostic context is size-limited. The service may process the request IP address and convert it into
+          a one-way hash for rate limiting, security and abuse prevention. Raw IP addresses are not intentionally
+          included in issue-report or application-error records by the app.
         </p>
       </section>
 
@@ -232,13 +245,20 @@
           the privacy email listed above. Some data may be retained where required for legal, security, fraud
           prevention or accounting reasons.
         </p>
+        <p>
+          Purchase-verification records may be retained while needed to prevent duplicate grants, restore permanent
+          purchases, handle disputes and meet fraud-prevention or accounting obligations. Hashed rate-limit records
+          may be retained as needed to protect the service from abuse.
+        </p>
       </section>
 
       <section>
         <h2>9. Security</h2>
         <p>
-          Reasonable technical and organizational measures are used to protect information handled by the app.
-          However, no method of storage or transmission is completely secure.
+          Reasonable technical and organizational measures are used to protect information handled by the app,
+          including encrypted transmission, restricted database access, input-size limits, rate limiting and
+          one-way hashing of purchase tokens and anti-abuse identifiers. However, no method of storage or
+          transmission is completely secure.
         </p>
       </section>
 
@@ -274,7 +294,7 @@
       <p class="lang-note">Spanish version / Versión en español</p>
 
       <h1>Política de privacidad</h1>
-      <p class="muted">Fútbol Quiz Master · Última actualización: 18 de julio de 2026</p>
+      <p class="muted">Fútbol Quiz Master · Última actualización: 22 de julio de 2026</p>
 
       <section class="notice">
         <h2>Información importante de contacto</h2>
@@ -311,6 +331,11 @@
         <p>
           Esta información local se usa para que el juego funcione, conservar el progreso, aplicar recompensas
           y recordar preferencias.
+        </p>
+        <p>
+          Las copias de seguridad creadas por el usuario solo contienen ajustes, récords y estado de tutoriales.
+          Excluyen deliberadamente derechos de compra, saldos de sabiduría, logros y cartas coleccionables. Los
+          archivos solo salen de la app cuando el usuario decide exportarlos o compartirlos mediante Android.
         </p>
       </section>
 
@@ -359,9 +384,12 @@
           opcionales, porque estos son ayudas voluntarias elegidas por el jugador para obtener beneficios extra.
         </p>
         <p>
-          Los identificadores de producto y tokens de compra de Google Play pueden enviarse a un servicio seguro
-          de verificación para confirmar que la compra es válida, impedir entregas duplicadas y restaurar
-          beneficios permanentes.
+          Los tokens de compra de Google Play, identificadores de producto, identificadores de pedido y estado
+          de compra pueden enviarse mediante una conexión cifrada a un servicio de verificación basado en
+          Supabase. El token original se usa para consultar Google Play y se convierte en un hash unidireccional
+          antes de registrarse. Los datos de producto, pedido y fechas de verificación pueden conservarse para
+          impedir entregas duplicadas, detectar fraude, recuperar compras interrumpidas y restaurar beneficios
+          permanentes.
         </p>
       </section>
 
@@ -374,6 +402,12 @@
           información como tu mensaje, descripción del error, pantalla de la app, modo de juego, idioma, datos
           del dispositivo o información de contacto. Esta información se usa para entender y corregir problemas,
           responder solicitudes y mejorar la app.
+        </p>
+        <p>
+          El contexto de diagnóstico tiene un tamaño limitado. El servicio puede tratar la dirección IP de la
+          solicitud y convertirla en un hash unidireccional para limitar peticiones, mantener la seguridad y evitar
+          abusos. La app no incluye intencionadamente direcciones IP sin transformar en los registros de reportes
+          o errores de aplicación.
         </p>
       </section>
 
@@ -416,13 +450,21 @@
           directamente contactando con el correo de privacidad indicado arriba. Algunos datos pueden conservarse
           cuando sea necesario por motivos legales, de seguridad, prevención de fraude o contabilidad.
         </p>
+        <p>
+          Los registros de verificación de compras pueden conservarse mientras sean necesarios para impedir
+          entregas duplicadas, restaurar compras permanentes, atender disputas y cumplir obligaciones contables o
+          de prevención del fraude. Los registros de limitación con identificadores hash pueden conservarse para
+          proteger el servicio frente a abusos.
+        </p>
       </section>
 
       <section>
         <h2>9. Seguridad</h2>
         <p>
-          Se usan medidas técnicas y organizativas razonables para proteger la información tratada por la app.
-          Sin embargo, ningún método de almacenamiento o transmisión es completamente seguro.
+          Se usan medidas técnicas y organizativas razonables para proteger la información tratada por la app,
+          incluyendo transmisión cifrada, acceso restringido a la base de datos, límites de tamaño, limitación de
+          peticiones y hash unidireccional de tokens de compra e identificadores antiabuso. Sin embargo, ningún
+          método de almacenamiento o transmisión es completamente seguro.
         </p>
       </section>
 
